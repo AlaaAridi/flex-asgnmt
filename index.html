@@ -6,13 +6,94 @@
         </title>
     </head>
     <body>
-        <div class="main-container">
+        <div class="head">
             <h1> 
                 Follow Up Survey
             </h1>
         </div>
-        <div>
-
+        <div class="body">
+            <div class="ques1-2">
+                <p>
+                    <label for="ques1"> When did you use our service?</label>
+                    <input type="date">
+                </p>
+            </div>
+            <div class="ques1-2">
+                <p>
+                    <label for="ques2">Name of product or service</label>
+                    <input type="text">
+                </p>
+            </div>
+            <div class="ques">
+                <label for="ques3"> Overall, how satisfied are you with the product or service?</label>
+            </div>
+            <div class="choice">
+                <input type="radio" id="v.sat" name="very satisfied" value="Very Satisfied"  >
+                <label for="v.sat">Very Satisfied</label>
+                <input type="radio" id="sat" name="satisfied" value="Satisfied"  >
+                <label for="sat">Satisfied</label>
+                <input type="radio" id="neut" name="neutral" value="Neutral"  >
+                <label for="neut">Neutral</label> 
+                <input type="radio" id="unsat" name="unsatisfied" value="Unsatisfied"  >
+                <label for="unsat">Unsatisfied</label>
+                <input type="radio" id="v.unsat" name="very unsatisfied" value="Very Unsatisfied"  >
+                <label for="v.unsat">Very Satisfied</label> 
+                <input type="radio" id="n/a" name="n/a" value="N/A"  >
+                <label for="n/a">N/A</label>
+            </div>
+            <div class="ques">
+                <label for="ques4"> Did our product or service meet your expectations?</label>
+            </div>
+            <div class="choice">
+                <input type="radio" id="yes1" name="yes1" value="Yes1"  >
+                <label for="yes1">Yes</label>
+                <input type="radio" id="no" name="no1" value="No"  >
+                <label for="no1">No</label>
+            </div>
+            <div class="ques">
+                <label for="ques5"> Would you recommend this product or service to a friend?</label>
+            </div>
+            <div class="choice">
+                <input type="radio" id="yes2" name="yes2" value="Yes2"  >
+                <label for="yes2">Yes</label>
+                <input type="radio" id="no2" name="no" value="No"  >
+                <label for="no2">No</label> 
+            </div>
+            <div class="ques">
+                <label for="ques6"> What aspect of the product or service were you most satisfied by?</label>
+            </div>
+            <div class="choice">
+                <input type="radio" id="qual" name="quality" value="Quality"  >
+                <label for="qual">Quality</label>
+                <input type="radio" id="price" name="price" value="Price"  >
+                <label for="price">Price</label>
+                <input type="radio" id="cs" name="customer service" value="Customer service"  >
+                <label for="cs">Customer Service</label> 
+                <input type="radio" id="ins" name="first use or installation" value="installation or first use"  >
+                <label for="ins">Installation or first use experience</label>
+            </div>
+            <div>
+                <label for="ques7"> What aspect of the product or service were you least satisfied by?</label>
+            </div>
+            <div>
+                <input type="radio" id="qual" name="quality" value="Quality"  >
+                <label for="qual">Quality</label>
+                <input type="radio" id="price" name="price" value="Price"  >
+                <label for="price">Price</label>
+                <input type="radio" id="cs" name="customer service" value="Customer service"  >
+                <label for="cs">Customer Service</label>
+                <input type="radio" id="ins" name="first use or installation" value="installation or first use" > 
+                <label for="ins">Installation or first use experience</label>
+            </div>
+            <div>
+                <label for="footer"> Additional Comments:</label><br>
+            </div>
+            <div>
+                <input type="text" id="typ" name="add comm" value="Type here...">
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
         </div>
     </body>
 </html>
