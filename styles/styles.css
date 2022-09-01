@@ -1,7 +1,9 @@
-hmtl{
-    color:#ababab ;
+body{
+    background-color: #ababab;
+    color:#e5e5e5 ;
 }
 
-body{
-    background-color:#e5e5e5 ;
+head{
+    background-color: rgb(231, 0, 0);
+    color: #703b40;
 }
